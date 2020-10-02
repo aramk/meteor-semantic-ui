@@ -9,8 +9,8 @@ Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.10.2');
   api.use([
     'ecmascript',
-    'jquery',
-    'less'
+    'jquery@3.0.0',
+    'less@2.8.0'
   ], 'client');
   api.addFiles([
     'bin/semantic.min.js',
