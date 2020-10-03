@@ -1,4 +1,4 @@
-aramk:semantic-ui@2.4.1
+aramk:semantic-ui@2.4.1_1
 babel-compiler@7.5.3
 babel-runtime@1.5.0
 caching-compiler@1.2.2
@@ -9,7 +9,7 @@ ecmascript-runtime-client@0.11.0
 ecmascript-runtime-server@0.10.0
 fetch@0.1.1
 inter-process-messaging@0.1.1
-jquery@3.0.0
+jquery@1.11.11
 less@2.8.0
 meteor@1.9.3
 modern-browsers@0.1.5
