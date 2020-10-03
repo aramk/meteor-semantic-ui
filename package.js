@@ -1,6 +1,6 @@
 Package.describe({
   name: 'aramk:semantic-ui',
-  version: '2.4.1',
+  version: '2.4.1_1',
   summary: 'Semantic-UI',
   git: 'https://github.com/aramk/meteor-semantic-ui.git'
 });
@@ -9,14 +9,12 @@ Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.10.2');
   api.use([
     'ecmascript',
-    'jquery@3.0.0',
+    'jquery@1.11.10',
     'less@2.8.0'
   ], 'client');
   api.addFiles([
     'bin/semantic.min.js',
     'bin/semantic.min.css',
-    // 'src/semantic.js',
-    // 'src/semantic.less',
   ], 'client');
   api.addAssets([
     'bin/themes/default/assets/fonts/brand-icons.eot',
