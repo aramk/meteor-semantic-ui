@@ -1,6 +1,6 @@
 Package.describe({
   name: 'aramk:semantic-ui',
-  version: '2.4.1_1',
+  version: '2.4.2',
   summary: 'Semantic-UI',
   git: 'https://github.com/aramk/meteor-semantic-ui.git'
 });
