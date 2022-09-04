@@ -10,7 +10,7 @@ Package.onUse(function (api) {
   api.use([
     'ecmascript',
     'jquery@1.11.10',
-    'less@2.8.0'
+    'less@4.0.0'
   ], 'client');
   api.addFiles([
     'bin/semantic.min.js',
